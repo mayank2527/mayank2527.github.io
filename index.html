@@ -277,20 +277,20 @@
 			<br><center><h2>Projects</h2></center>
 				<br>
 				<br><br><br><br>
-				<div class="cd col-sm-3 col-md-offset-2" style="margin-bottom: 20px;">
+				<div id="p1" class="cd col-sm-3 col-md-offset-2" style="margin-bottom: 20px;">
 				  <div class="con">
 				    <h4><b>Billing web app</b></h4> 
 				    <p class="text-justify">Its a simple billing web based app with CRUD operations and billing facility with stock management.</p> 
 				  </div>
 				</div>
 				<div class="cd col-sm-3 col-sm-offset-1" style="margin-bottom: 20px;">
-				  <div class="con">
+				  <div class="con" id="p2">
 				    <h4><b>Books_ON_Door</b></h4> 
 				    <p>An online book store in which user can buy and sell books.It also uses Google books Api.</p> 
 				  </div>
 				</div>
 				<div class="cd col-sm-3 col-sm-offset-1" style="margin-bottom: 20px;">
-				  <div class="con">
+				  <div class="con" id="p3">
 				    <h4><b>Blog APP</b></h4> 
 				    <p>A bloging app made on laravel MVC framework to understand its functionality.</p> 
 				  </div>
@@ -302,14 +302,26 @@
 			<ul class="list-inline col-xs-12 col-sm-8 col-sm-push-4" style="padding-left: 60px;">
 				<li><a href="#" class="fa fa-facebook"></a></li>
 				<li><a href="#" class="fa fa-twitter"></a></li>
-				<li><a href="https://www.linkedin.com/in/mayank2527" class="fa fa-linkedin"></a></li>
-				<li><a href="https://github.com/mayank2527" class="fa fa-github"></a></li>
+				<li><a target="_blank" href="https://www.linkedin.com/in/mayank2527" class="fa fa-linkedin"></a></li>
+				<li><a target="_blank" href="https://github.com/mayank2527" class="fa fa-github"></a></li>
 			</ul>
 			
 			
 			
 	</div>
 	</div>
+	<script type="text/javascript">
+		$("div#p1").click(function(){
+			window.open('https://github.com/mayank2527/Billing-application','_blank');
+		});
 
+		$("div#p2").click(function(){
+			window.open('https://github.com/mayank2527/BooksOnDoor','_blank');
+		});
+
+		$("div#p3").click(function(){
+			window.open('https://github.com/mayank2527/Blog-app','_blank');
+		});
+	</script>
 </body>
 </html>
